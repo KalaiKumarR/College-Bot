@@ -1,0 +1,268 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+    - hey bot
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+    - cu later
+    - c u later
+
+- intent: affirm
+  examples: |
+    - yes
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+    - fine
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+    - what is your name?
+    - are u bot?
+    - r u bot?
+    - are u bot or human?
+
+- intent: college_name
+  examples: |
+    - what is the college name?
+    - what is the name of the college?
+    - what is the full name of the college?
+    - college name
+    - say the college name
+
+- intent: location
+  examples: |
+    - where it is located?
+    - college location
+    - exact location
+    - in tamil nadu where is it located?
+    - in india where is it located?
+    - in erode where is it located?
+    - say the location of the college?
+
+- intent: principle
+  examples: |
+    - who is the principle?
+    - who is the principle of bit?
+    - who is the principle of bannari amman institute of technology?
+    - what is the principle name?
+    - who is the current principle ?
+    - what is the name of the principle?
+    - name of the principle
+    - principle
+    - say the name of the princile
+
+- intent: info
+  examples: |
+    - can u give me some information about this college?
+    - can u give me some college information?
+    - explain me about this college?
+    - give me some college info
+    - give me some info about this college
+    - give me some info for this college
+    - tell me about this college?
+    - information about this college
+    - college info
+    - college infomartion
+    - bit information
+    - bannari amman institute of technology info
+    - give some info about the college?
+
+- intent: history
+  examples: |
+    - history about this college
+    - when this college is founded?
+    - history of bit?
+    - history of bannari amman institute of technology?
+    - who founded this college?
+    - who is the founder of bannari amman institute of technology?
+    - tell me the history of this college?
+    - tell me the history of bannari amman institute of technology?
+    - tell me about the college history?
+    - college history?
+
+
+- intent: chairman
+  examples: |
+    - chairman?
+    - chairman
+    - who is the owner of bit?
+    - owner of bit?
+    - who is the chairman of this college?
+    - who is the chairman of bit?
+    - who is the chairman of bannari amman institute of technology?
+    - owner of bannari amman institute of technology
+
+- intent: departments
+  examples: |
+    - show me the list of departments?
+    - how many departments are there in bit?
+    - show me the list of departments in bannari amman institute of technology?
+    - departments in bit?
+    - departments in bannari amman institite of technology?
+    - show me the lost of departments in bit?
+    - departments?
+    - available departments in bit?
+    - available departments in this college?
+
+
+- intent: ug_courses
+  examples: |
+    - how many ug course are there in this college?
+    - list of ug course in bit?
+    - list of ug cours in this college?
+    - available ug course?
+    - ug course?
+    - how many ug course are avaiable?
+
+- intent: pg_courses
+  examples: |
+    - how many pg course are there in this college?
+    - list of pg course in bit?
+    - list of pg cours in this college?
+    - available pg course?
+    - pg course?
+    - how many pg course are avaiable?
+    - pg course list?
+
+- intent: students
+  examples: |
+    - how many student are studing in this college?
+    - student count?
+    - no of students in this college?
+    - total no of students in bit?
+    - how many student are studing in bannari amman institute of technology?
+    - total no of studentd in this college?
+    - current student count?
+    - how many student are studying in this college?
+
+- intent: teachers
+  examples: |
+    - how many teachers are teaching in this college?
+    - teachers count?
+    - no of teachers in this college?
+    - total no of teachers in bit?
+    - how many teachers are  in bannari amman institute of technology?
+    - total no of teachers in this college?
+    - current teachers count?
+    - how many staffs are there in this college?
+    - how many staffs are teaching in this college?
+    - staffs count?
+    - no of staffs in this college?
+    - total no of staffs in bit?
+    - how many staffs are  in bannari amman institute of technology?
+    - total no of staffs in this college?
+    - current staffs count?
+    - how many staffs are there in this college?
+    - faculty
+    - how many faculty are teaching in this college?
+    - faculty count?
+    - no of faculty in this college?
+    - total no of faculty in bit?
+    - how many faculty are  in bannari amman institute of technology?
+    - total no of faculty in this college?
+    - current faculty count?
+
+- intent: counselling_code
+  examples: |
+    - what is the college counselling code?
+    - can u give me the counselling code?
+    - counselling code?
+    - say the counselling code?
+    - what is the counselling code of this college?
+    - what is the  bit counselling code?
+    - bannari amman institute of technology counselling code?
+
+- intent: clubs
+  examples: |
+    - list the clubs in this college?
+    - list of clubs in bit
+    - how many clubs are there in bannari amman institute of technology?
+    - total no clubs in bit?
+    - total number of clubs in this college?
+    - how can i join in club?
+
+- intent: special_labs
+  examples: |
+    - list the special labs in this college?
+    - list of special_labs in bit
+    - how many special_labs are there in bannari amman institute of technology?
+    - total no special_labs in bit?
+    - total number of special_labs in this college?
+    - how can i join in special_labs?
+
+- intent: achievements
+  examples: |
+    - list the achievements of this college?
+    - what are the achievements of bit?
+    - achievements of this college?
+    - mention the list of achievements?
+    - achievements of bannari amman institute of technology?
+    - achievement of this college?
+
+- intent: founder
+  examples: |
+    - who founded you?
+    - who created you?
+    - founder of bot?
+    - who created u?
+
+- intent: out_of_scope
+  examples: |
+    - I want to order food
+    - What is 2 + 2?
+    - Who's the US President?
+    - who's the president of india?
+    - name of the tamil nade CM?
+    - say my name?
+    - order me a cab?
+    - who i am
+    - say my ip?

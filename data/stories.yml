@@ -1,0 +1,115 @@
+version: "2.0"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: greet the user
+  steps:
+    - intent: greet
+    - action: utter_greet
+
+- story: say bye user
+  steps:
+    - intent: goodbye
+    - action: utter_goodbye
+
+- story: make user happy
+  steps:
+    - intent: affirm
+    - action: utter_happy
+
+- story: reply i am bot
+  steps:
+    - intent: bot_challenge
+    - action: utter_iamabot
+
+- story: college name
+  steps:
+    - intent: college_name
+    - action: utter_college_name
+
+- story: college location
+  steps:
+    - intent: location
+    - action: utter_location
+
+- story: principle name
+  steps:
+    - intent: principle
+    - action: utter_principle
+
+- story: college infomation
+  steps:
+    - intent: info
+    - action: utter_info
+
+- story: history of the college
+  steps:
+    - intent: history
+    - action: utter_history
+
+- story: chairman name
+  steps:
+    - intent: chairman
+    - action: utter_chairman
+
+- story: college departments
+  steps:
+    - intent: departments
+    - action: utter_departments
+
+- story: ug course in college
+  steps:
+    - intent: ug_courses
+    - action: utter_ug_course
+
+- story: pg course in college
+  steps:
+    - intent: pg_courses
+    - action: utter_pg_course
+
+- story: total no.of students in college
+  steps:
+    - intent: students
+    - action: utter_students
+
+- story: total no.of teachers in college
+  steps:
+    - intent: teachers
+    - action: utter_teachers
+
+- story: college counselling code
+  steps:
+    - intent: counselling_code
+    - action: utter_counselling_code
+
+- story: clubs in college
+  steps:
+    - intent: clubs
+    - action: utter_clubs
+
+- story: special labs in college
+  steps:
+    - intent: special_labs
+    - action: utter_special_labs
+
+- story: achievements of the college
+  steps:
+    - intent: achievements
+    - action: utter_achievements
+
+- story: founder of bot
+  steps:
+    - intent: founder
+    - action: utter_founder
+
+- story: out_of_scope
+  steps:
+    - intent: out_of_scope
+    - action: utter_out_of_scope

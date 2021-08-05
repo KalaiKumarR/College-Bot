@@ -1,0 +1,248 @@
+version: "2.0"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - mood_great
+  - bot_challenge
+  - college_name
+  - location
+  - principle
+  - info
+  - history
+  - chairman
+  - departments
+  - ug_courses
+  - pg_courses
+  - students
+  - teachers
+  - counselling_code
+  - clubs
+  - special_labs
+  - achievements
+  - founder
+  - out_of_scope
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+  - text: "hello welcome to BIT portal! How are you?"
+  - text: "Hey! Welcome to BIT portal!"
+
+  utter_happy:
+  - text: "Great, carry on!"
+  - text: "Happy to hear, carry on"
+
+  utter_goodbye:
+  - text: "Bye"
+  - text: "Bye!"
+  - text: "See you later"
+  - text: "Bye! Have a nice day!"
+  - text: "Good Bye"
+
+  utter_iamabot:
+  - text: "I am a DIGI Bot"
+  - text: "People call me as DIGI Bot"
+
+  utter_college_name:
+    - text: "Bannari Amman Institute of Technology"
+  utter_location:
+    - text:
+       "Sathy - Bhavani State Highway,Alathukombai - Post,
+       Sathyamangalam - 638 401,
+       Erode District,
+       Tamil Nadu,India"
+  utter_principle:
+    - text:
+       "Dr C Palanisamy
+       Email: principal@bitsathy.ac.in"
+  utter_info:
+    - text:
+       "Dedicated staff members: 576
+       Happy Students: 7233
+       Honors: 11"
+
+  utter_history:
+    - text:
+       "It was founded by the Bannari Amman Group (BAG),
+       one of the largest Industrial Conglomerates in South India with a wide spectrum of manufacturing,
+       trading and service activities,
+       in 1996 and is affiliated to Anna University.
+       The institute offers 20 undergraduate,
+       15 postgraduate programmes in Engineering,
+       Technology and Management studies"
+
+  utter_chairman:
+    - text:
+        "Thiru S V Balasubramaniam"
+
+  utter_departments:
+    - text:
+       "There are totally 29 departments are available in BTI:
+        AERONAUTICAL ENGINEERING
+        AGRICULTURE ENGINEERING
+        ARTIFICIAL INTELLIGENCE AND DATA SCIENCE
+        ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING
+        AUTOMOBILE ENGINEERING
+        BIOMEDICAL ENGINEERING
+        BIOTECHNOLOGY
+        CHEMISTRY
+        CIVIL ENGINEERING
+        COMPUTER SCIENCE AND BUSINESS SYSTEMS
+        COMPUTER SCIENCE AND ENGINEERING
+        COMPUTER TECHNOLOGY
+        ELECTRICAL AND ELECTRONICS ENGINEERING
+        ELECTRONICS AND COMMUNICATION ENGINEERING
+        ELECTRONICS AND INSTRUMENTATION ENGINEERING
+        FASHION TECHNOLOGY
+        FOOD TECHNOLOGY
+        HUMANITIES
+        INFORMATION SCIENCE AND ENGINEERIN
+        INFORMATION TECHNOLOGY
+        MATHEMATICS
+        MECHANICAL ENGINEERING
+        MECHATRONICS
+        PHYSICAL EDUCATION
+        PHYSICS
+        SCHOOL OF MANAGEMENT STUDIES
+        TEXTILE TECHNOLOGY
+        TRAINING & PLACEMENT
+        YOGA"
+  utter_ug_course:
+    - text:
+        "There are totally 21 UG Courses are available in BIT:
+         B.E. - AERONAUTICAL ENGINEERING
+         B.E. - MECHANICAL ENGINEERING
+         B.E. - ELECTRONICS AND INSTRUMENTATION ENGINEERING
+         B.E. - ELECTRONICS AND COMMUNICATION ENGINEERING
+         B.E. - ELECTRICAL AND ELECTRONICS ENGINEERING
+         B.E. - COMPUTER SCIENCE AND ENGINEERING
+         B.E. - BIOMEDICAL ENGINEERING
+         B.E. - MECHATRONICS
+         B.E. - INFORMATION SCIENCE AND ENGINEERING
+         B.E. - AUTOMOBILE ENGINEERING
+         B.E. - CIVIL ENGINEERING
+         B.E. - AGRICULTURE ENGINEERING
+         B.Tech. - COMPUTER TECHNOLOGY
+         B.Tech. - ARTIFICIAL INTELLIGENCE AND DATA SCIENCE
+         B.Tech. - COMPUTER SCIENCE AND BUSINESS SYSTEM
+         B.Tech. - ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING
+         B.Tech. - TEXTILE TECHNOLOGY
+         B.Tech. - FASHION TECHNOLOGY
+         B.Tech. - FOOD TECHNOLOGY
+         B.Tech. - BIOTECHNOLOGY
+         B.Tech. - INFORMATION TECHNOLOGY"
+  utter_pg_course:
+    - text:
+        "M.E. - INDUSTRIAL AUTOMATION & ROBOTICS
+         M.E. - INSTRUMENTATION ENGINEERING
+         M.E. - EMBEDDED SYSTEMS
+         M.E. - SOFTWARE ENGINEERING
+         M.E. - STRUCTURAL ENGINEERING
+         M.E. - COMPUTER SCIENCE AND ENGINEERING
+         M.E. - VLSI DESIGN
+         M.E. - COMMUNICATION SYSTEMS
+         M.E. - INDUSTRIAL SAFETY ENGINEERING
+         M.E. - CAD/CAM
+         M.E. - ENGINEERING DESIGN
+         M.E. - POWER ELECTRONICS AND DRIVES
+         M.E. - APPLIED ELECTRONICS
+         M.Tech. - BIOTECHNOLOGY"
+  utter_students:
+    - text: "Happy Students: 7233"
+  utter_teachers:
+    - text: "Dedicated staff members: 576"
+  utter_counselling_code:
+    - text: "The counselling code : 2702 "
+  utter_clubs:
+    - text:
+        "There are totally 13 clubs are available in BIT:
+         Entrepreneurship Club
+         Geo Club
+         IEEE
+         Math Club
+         Music Club
+         Leo Club
+         National Cadet Corps
+         National Service Scheme
+         Muthamizh Mandram
+         Science Club
+         Women Development
+         Red Ribbon Club
+         Youth Red Cross"
+  utter_special_labs:
+    - text:
+        "There are totally 57 special labs are available in BIT:
+         Apparel Made - ups And Home Furnishings Lab
+         Art And Design Laboratory
+         Artificial intelligence
+         Bio Prospecting Lab
+         Biopolymer And Biomaterial Synthesis And Anayltical Testing Lab
+         Bioprocess And Bioproducts Lab
+         Blockchain Technology
+         Cloud Computing
+         Communication Protocol
+         Cyber Security
+         Data Science
+         Drives & Actuators
+         Drives & Automation
+         Electrical Product Dev Lab
+         Electronic System For Wildlife Conservation
+         Embedded System Lab
+         Embedded Technology
+         Energy And Thermal Product Design & Development Lab
+         Energy Storage & Conversion
+         Functional Food & Nutraceuticals
+         Fungal Biodiversity And Bio-resources Laboratory
+         Hackathon Lab
+         Industrial Automation
+         Industrial Design
+         Industrial Iot
+         IOT
+         Liquid Crystal Research Lab
+         Manufacturing & Fabrication
+         Mathematics Experience Centre
+         Micro Prototyping Lab
+         Mobile & Web App
+         Modelling & Analysis
+         Modelling / Prototyping
+         Molecular Diagnostics & Bio Molecule Characterisation
+         Natural Language Processing
+         Network Modelling Lab
+         Next Generation Networking Lab
+         Opensource
+         Power Conversion And System Integration Lab
+         Printed Circuit Board Lab
+         Programming
+         Renewable Energy And Hvac Products
+         Robotics
+         Robotics & Automation Lab
+         Sensors & Instrumentation
+         Signal Processing For Health Care Lab
+         Smart Agriculture
+         Smart And Healthy Infrastructure
+         Software Process Automation Lab
+         Sustainable Civil Engineering Materials Lab
+         Technical Textile
+         Unmanned Aerial Vehicle
+         Unmanned Underwater Vehicle
+         Virtual Instrumentation Lab
+         Virtual Reality / Augumented Reality
+         Vision Engineering Lab
+         Worldskills Training Centre"
+
+  utter_achievements:
+    - text: "Totally BIT had won 1329 awards+achievements"
+
+  utter_founder:
+    - text: "Name:Kalai Kumar R
+             Roll No:181CS167
+             Batch:2018-2022"
+
+  utter_out_of_scope:
+      - text: "I'm sorry, I didn't quite understand that. Could you rephrase?"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
