@@ -33,7 +33,7 @@ Step 6: Modify the domain.yml file which is under the test folder
               [utter_chairman:
                   - text: "Thiru S V Balasubramaniam"]
 
-Note: I haven't created custom actions for my bot [will be coming soom...........]
+Note: I haven't created custom actions for my bot [will be coming soon...........]
 
 Step 7: Modify the pipeline under the config.yml file 
           1.Add the FallbackClassifier to respond[default message] some of quries which is not trained in nlu.yml and fixed the threshold as 0.3  
